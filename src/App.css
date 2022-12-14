@@ -15,6 +15,18 @@
 
 .App-header {
   background-color: #282c34;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  font-size: xxx-large;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  z-index: 2;
+  color: black;
+}
+
+.app-body {
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
